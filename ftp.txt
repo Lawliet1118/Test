@@ -1,1 +1,16 @@
 this is a test file.
+not a good choice.
+
+package test;
+import java.util.Random;
+
+public class Test{
+    public static void main(String[] args){
+	Random ran=new Random();
+	int rd=ran.nextInt(10);
+	System.out.println('hello world'+rd);
+    }
+}
+	
+
+
